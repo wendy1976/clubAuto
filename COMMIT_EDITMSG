@@ -1,0 +1,30 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+#
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#	new file:   .vscode/settings.json
+#	new file:   css/bootstrap.min.css
+#	new file:   css/clubAuto.css
+#	new file:   images/clients.jpg
+#	new file:   images/entretien.jpg
+#	new file:   images/icon-telephone.png
+#	new file:   images/icon1.png
+#	new file:   images/icon2.png
+#	new file:   images/icon3.png
+#	new file:   images/icon4.png
+#	new file:   images/icone-adresse.png
+#	new file:   images/icone-voiture.png
+#	new file:   images/vehicule1.jpg
+#	new file:   images/vehicule2.jpg
+#	new file:   images/vehicule3.jpg
+#	new file:   images/vente-location.jpg
+#	new file:   index.html
+#	new file:   js/bootstrap.bundle.min.js
+#	new file:   test.html
+#	new file:   test2.html
+#
