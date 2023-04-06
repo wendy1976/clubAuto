@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+:root {
+    --black: #232628;
+    --orange: #FAB637; 
+    --red: #FF4848;
+    --marron: #CC6119;
+    --gray: #ECEFF3;
+    --darkgray: #464e53;
+    --white: #FFFFFF;
+    --blue: #6C98E1;
+}
+
+.black {
+    color: var(--black); 
+}
+.bgBlack{
+    background-color: var(--black);
+}
+.orange {
+    color: var(--orange);
+}
+.bgOrange{
+    background-color: var(--orange);
+}
+
+.red {
+    color: var(--red); 
+}
+.bgRed {
+    background-color: var(--red);
+}
+.marron {
+    color: var(--marron); 
+}
+.gray {
+    color: var(--gray);
+}
+.bgGray {
+    background-color: var(--gray) ;
+}
+.darkgray {
+    color: var(--darkgray);
+}
+.bgDarkgray {
+    background-color: var(--darkgray);
+}
+.white{
+    color: var(--white);
+}
+.bgWhite {
+    background-color: var(--white);
+}
+.blue {
+    color: var(--blue);
+}
+.bgBlue {
+    background-color: var(--blue);
+}
+
+.accessibility{
+    position: absolute;
+    left: -1500px;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    font-family: 'Montserrat',Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+p {
+    font-family: 'Open-sans',Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+#mainHeader {
+    background-color: var(--black);
+    font-family: 'Open-sans',Verdana, Geneva, Tahoma, sans-serif;
+    font-size: .6em;
+    color: var(--white);  
+    height: 92px;  
+}
+
+.logo {
+    color: var(--white);
+    font-family: 'Montserrat',Verdana, Geneva, Tahoma, sans-serif; 
+    padding-right: 5%;  
+}
+
+.telephone {
+    line-height: 150%;
+    padding-left: 20px;
+}
+
+.facebook {
+   color: var(--white);
+}
+.twitter {
+    color: var(--white);
+}
+/*effet de survol sur la barre de navigation*/
+a:hover{
+    display: inline-block;
+    background-color: var(--marron);  
+    height: 30px; 
+    color: var(--white);   
+}
+.navbar{
+    width: 101%;
+    margin-left: -11px;
+    margin-right: -10px; 
+}
+.navbar-toggler {   
+   background-color: var(--black);
+   position: absolute;
+   top: -90px;
+   left: 85%;  
+}
+#containerToggle{
+    
+}
+
+#mainH1 {
+    padding-left: 10%;
+}
+
+#clients {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#lustrage {
+    padding-left: 10%;
+    padding-right: 10%;      
+}
+
+#coches {
+    list-style-image: url(https://www.shutterstock.com/image-vector/orange-check-mark-icon-tick-symbol-645168988); 
+}
+
+#imgBackground {
+    background-image: url(/images/vente-location.jpg);   
+}
+
+#vehiculeRecent{
+    height: 220px;
+    position: relative;
+    top: 0;
+}   
+#annonce {
+    padding-left: 20%;      
+}
+#prixBarre {
+    text-decoration: line-through;
+}
+#services {
+    padding-left: 10%;
+    padding-right: 10%;   
+}
+
+#imgBackground2 {
+    background-image: url(/images/vehicule3.jpg);   
+}
+#pubFin {
+    opacity: 80%;     
+}
+#acheter {
+    opacity: 80%;    
+}
+#louer {
+    opacity: 80%;    
+}
+#imageBackground3 {
+    background-image: url(/images/vehicule3.jpg);   
+}
+#formulaire{  
+    background-image: url(/images/vehicule3.jpg);
+    padding: 15%;
+}
+#mainFooter {
+    background-color: var(--black);
+    height: 140px;  
+    width: 110%;
+    bottom: 0;
+    color: var(--white);
+    font-size: .5em;  
+    padding: 0 5% 0 10%;       
+} 
+/*Revoir le copyright ne fonctionne pas*/    
+
+#bordureFooter {
+   
+}
