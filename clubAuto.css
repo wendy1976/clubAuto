@@ -10,56 +10,92 @@
     --darkgray: #464e53;
     --white: #FFFFFF;
     --blue: #6C98E1;
+    --middlegray: #888888;
 }
 
 .black {
     color: var(--black); 
 }
-.bgBlack{
+.textBlack {
+    color: var(--black); 
+}
+.bgBlack {
     background-color: var(--black);
 }
+
 .orange {
     color: var(--orange);
 }
-.bgOrange{
+
+.bgOrange {
     background-color: var(--orange);
 }
 
 .red {
     color: var(--red); 
 }
+
 .bgRed {
     background-color: var(--red);
 }
+
 .marron {
     color: var(--marron); 
 }
+
+.textMarron {
+    color: var(--marron); 
+}
+
 .gray {
     color: var(--gray);
 }
+
 .bgGray {
     background-color: var(--gray) ;
 }
+
+.middlegray {
+    color: var(--middlegray);
+}
+
 .darkgray {
     color: var(--darkgray);
 }
+
+.textDargray {
+    color: var(--darkgray);
+}
+
 .bgDarkgray {
     background-color: var(--darkgray);
 }
+
 .white{
     color: var(--white);
 }
+
 .bgWhite {
     background-color: var(--white);
 }
+
+.textWhite {
+    color: var(--white);
+}
+
 .blue {
     color: var(--blue);
 }
+
+.textBlue {
+    color: var(--blue);
+}
+
 .bgBlue {
     background-color: var(--blue);
 }
-
-.accessibility{
+/*pour l'accessibilité des personnes malvoyantes*/
+.accessibility {
     position: absolute;
     left: -1500px;
 }
@@ -75,16 +111,16 @@ p {
 #mainHeader {
     background-color: var(--black);
     font-family: 'Open-sans',Verdana, Geneva, Tahoma, sans-serif;
-    font-size: .6em;
-    color: var(--white);  
+    font-size: .8em;
+    color: var(--white);
     height: 92px;  
-}
+}   
 
 .logo {
     color: var(--white);
     font-family: 'Montserrat',Verdana, Geneva, Tahoma, sans-serif; 
     padding-right: 5%;  
-}
+}  
 
 .telephone {
     line-height: 150%;
@@ -94,9 +130,11 @@ p {
 .facebook {
    color: var(--white);
 }
+
 .twitter {
     color: var(--white);
 }
+
 /*effet de survol sur la barre de navigation*/
 a:hover{
     display: inline-block;
@@ -104,19 +142,22 @@ a:hover{
     height: 30px; 
     color: var(--white);   
 }
+/*agrandissement de la navbar*/
 .navbar{
-    width: 101%;
+    width: 100%;
     margin-left: -11px;
     margin-right: -10px; 
 }
+/*mise en forme du bouton hamburger sur les mobiles*/
 .navbar-toggler {   
    background-color: var(--black);
    position: absolute;
    top: -90px;
    left: 85%;  
 }
-#containerToggle{
-    
+
+.my-toggler-icon{
+    background-image: url(/images/icons-menu.png);
 }
 
 #mainH1 {
@@ -132,9 +173,9 @@ a:hover{
     padding-left: 10%;
     padding-right: 10%;      
 }
-
+/*changement des puces de la liste en coches orange*/
 #coches {
-    list-style-image: url(https://www.shutterstock.com/image-vector/orange-check-mark-icon-tick-symbol-645168988); 
+    list-style-image: url(/images/coche\ orange.png);
 }
 
 #imgBackground {
@@ -144,14 +185,27 @@ a:hover{
 #vehiculeRecent{
     height: 220px;
     position: relative;
-    top: 0;
-}   
-#annonce {
-    padding-left: 20%;      
+    top: 0;  
 }
+
+#bordure {
+    border-bottom: solid 2px var(--marron)!important;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+  
+#annonce {
+    padding-left: 10%; 
+    padding-right: 10%;
+}   
+#descriptionAnnonce {
+    padding-left: 11%; 
+}  
+
 #prixBarre {
     text-decoration: line-through;
 }
+
 #services {
     padding-left: 10%;
     padding-right: 10%;   
@@ -160,33 +214,91 @@ a:hover{
 #imgBackground2 {
     background-image: url(/images/vehicule3.jpg);   
 }
+/*opacite des background*/
 #pubFin {
     opacity: 80%;     
 }
+
 #acheter {
     opacity: 80%;    
 }
+
 #louer {
     opacity: 80%;    
 }
+
 #imageBackground3 {
     background-image: url(/images/vehicule3.jpg);   
 }
+
+#imageBackground4 {
+    background-image: url(/images/vente-location-modified.jpg);   
+}
+
 #formulaire{  
     background-image: url(/images/vehicule3.jpg);
     padding: 15%;
 }
+
+#location {
+    height: 110px;  
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 8%;    
+}
+#vente {
+    height: 110px;  
+    width: 100%;
+    margin-left: 20%;
+    margin-top: 8%;    
+}
+
+#annoncesLoc {  
+    width: 60%;
+}
+
+.rechercher {
+    height: max-content;     
+} 
+/*bordure et  l'effet d'ombre de la liste accordéon*/   
+#accordion{
+    border: solid 1px var(--darkgray);  
+    box-shadow: 10px 10px var(--darkgray);
+    height: max-content;    
+}
+
+#bordureVehicule {
+    border-bottom: solid 1px var(--middlegray)!important;   
+    margin-right: 15%;
+}
+#annonceBmw{
+    margin-left: 15%;
+}
+
+#onglets{
+    margin-left: 15%;
+    margin-right: 21%;
+}
+#barreOrange{   
+    list-style-image: url(/images/barre\ orange.png);  
+}
+
+.italic{
+    font-style: italic;
+}
+
+.cocheOrange{
+    list-style-image: url(/images/cocheOrange2.png);
+}
+
 #mainFooter {
     background-color: var(--black);
-    height: 140px;  
-    width: 110%;
-    bottom: 0;
-    color: var(--white);
-    font-size: .5em;  
-    padding: 0 5% 0 10%;       
+    padding: 0 5% 0 10%  
 } 
-/*Revoir le copyright ne fonctionne pas*/    
 
+ 
 #bordureFooter {
-   
-}
+    border-bottom: solid 1px var(--darkgray)!important;    
+    margin-right: 5%;
+    margin-left: 5%;   
+} 
